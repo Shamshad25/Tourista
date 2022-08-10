@@ -107,3 +107,13 @@
   cursor: pointer;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 480px) {
+  .searchItem {
+    display: flex;
+    flex-direction: column;
+  }
+  .siImg {
+    width: 100%;
+  }
+}

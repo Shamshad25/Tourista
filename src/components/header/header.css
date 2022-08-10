@@ -1,5 +1,4 @@
 .header {
-  background-color: #27aae1;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -128,4 +127,57 @@
 
 .optionCounterButton:disabled {
   cursor: not-allowed;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: 100%;
+  }
+
+  .headerList {
+    margin-left: 10px;
+  }
+
+  .headerTitle {
+    margin-left: 10px;
+  }
+
+  .headerDesc {
+    margin-left: 10px;
+  }
+
+  .headerBtn {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    background: #50b1d1;
+  }
+  .headerContainer {
+    width: 100%;
+    display: flex;
+  }
+  .headerList {
+    display: flex;
+    flex-direction: column;
+  }
+  .article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerBtn {
+    width: 150px;
+    align-self: flex-end;
+  }
+
+  .headerSearch {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    border-color: #febb02;
+  }
 }

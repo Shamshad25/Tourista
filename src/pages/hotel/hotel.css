@@ -152,3 +152,42 @@
   color: lightgray;
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+  .hotelWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .hotelWrapper > h1 {
+    width: 150px;
+  }
+
+  .hotelDetails {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hotelDetailsTexts {
+    width: 90%;
+    align-self: center;
+    text-align: center;
+  }
+
+  .slider {
+    width: 100vw;
+    height: 100vh;
+  }
+  .sliderImg {
+    width: 100%;
+    height: 50%;
+  }
+  .close {
+    top: 0;
+    right: 0;
+  }
+  .arrow {
+    margin: 0;
+  }
+}

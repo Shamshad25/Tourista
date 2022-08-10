@@ -84,3 +84,19 @@
 .listResult {
   flex: 3;
 }
+
+@media screen and (max-width: 480px) {
+  .listWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .listSearch {
+    width: 90%;
+    position: static;
+  }
+  .listResult {
+    width: 90%;
+  }
+}

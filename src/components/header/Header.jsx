@@ -78,14 +78,16 @@ const Header = ({ type }) => {
         </div>
         {type !== "list" && (
           <>
-            <h1 className="headerTitle">
-              A lifetime of discounts? It's Genius.
-            </h1>
-            <p className="headerDesc">
-              Get rewarded for your travels – unlock instant savings of 10% or
-              more with a free Tourista account
-            </p>
-            <button className="headerBtn">Sign in / Register</button>
+            <div className="article">
+              <h1 className="headerTitle">
+                A lifetime of discounts? It's Genius.
+              </h1>
+              <p className="headerDesc">
+                Get rewarded for your travels – unlock instant savings of 10% or
+                more with a free Tourista account
+              </p>
+              <button className="headerBtn">Sign in / Register</button>
+            </div>
             <div className="headerSearch">
               <div className="headerSearchItem">
                 <FontAwesomeIcon icon={faBed} className="headerIcon" />
