@@ -4,7 +4,8 @@
   display: flex;
   justify-content: center;
   position: relative;
-  background: url(../../images/background.jpg);
+  background: url(../../images/background.jpg) no-repeat;
+  background-size: 100%;
 }
 
 .headerContainer {
